@@ -1,0 +1,28 @@
+.social-network {
+	list-style:none;
+	padding:0;
+}
+
+ul.social-network li{
+	display:inline;
+}
+
+[class*="fa-"] {
+	font-size: 35pt;
+	color :white;
+	padding: 10px;
+	transition: 0.2s;
+}
+
+[class*="fa-"]:hover {
+	color: #212529;
+	transition: 0.2s;
+}
+
+.t-d-none {
+	text-decoration:none;
+}
+
+.t-d-hover:hover {
+	text-decoration:underline;
+}
