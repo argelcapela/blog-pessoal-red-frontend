@@ -20,7 +20,7 @@ export class InicioComponent implements OnInit {
     if(environment.token == '')
     {
       //alert("Sua sessão expirou, faça o login novamente.")
-      //this.router.navigate(['/entrar'])
+      this.router.navigate(['/entrar'])
     }
   }
 
