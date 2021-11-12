@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
+import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
 import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
@@ -13,7 +16,10 @@ const routes: Routes = [
   {path: 'inicio', component: InicioComponent},
   {path: 'tema', component: TemaComponent},
   {path: 'tema-edit/:codTema', component: TemaEditComponent},
-  {path: 'tema-delete/:codTema', component: TemaDeleteComponent}
+  {path: 'tema-delete/:codTema', component: TemaDeleteComponent},
+  {path: 'postagem-delete/:idPostagem', component: PostagemDeleteComponent},
+  {path: 'postagem-edit/:idPostagem', component: PostagemEditComponent},
+  {path: 'user-edit/:idUsuario', component: UserEditComponent},
 ];
 
 @NgModule({

@@ -24,8 +24,8 @@ export class TemaEditComponent implements OnInit {
 
     if(environment.token == '')
     {
-      //alert("Sua sessão expirou, faça o login novamente.")
-      //this.router.navigate(['/entrar'])
+      alert("Sua sessão expirou, faça o login novamente.")
+      this.router.navigate(['/entrar'])
     }
 
     let codTema = this.route.snapshot.params['codTema']

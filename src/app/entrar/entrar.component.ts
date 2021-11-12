@@ -18,22 +18,24 @@ export class EntrarComponent implements OnInit {
     private auth: AuthService,
     private router: Router
   ) {
+
+  }
+
+  ngOnInit() {
     window.scroll(0, 0)
   }
 
-  ngOnInit(): void {
-  }
-
-  entrar(){
+  logar(){
     this.auth.entrar(this.userLogin).subscribe((resp: UserLogin)=>{
       this.userLogin = resp
-
+      //alert(this.userLogin.idUsuario)
       environment.token = this.userLogin.token
       environment.nomeCompleto = this.userLogin.nomeCompleto
       environment.foto = this.userLogin.foto
       environment.idUsuario = this.userLogin.idUsuario
 
-      console.table(environment);
+     // console.table(environment);
+     // console.log("fixing bugs: " + this.userLogin.idUsuario)
 
       this.router.navigate(['/inicio'])
     }, erro => {

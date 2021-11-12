@@ -2,7 +2,7 @@
 	<div class="col-6">
 		<a href="" class="navbar-brand"><img src="{{foto}}" width="40" height="40" class="d-inline-block rounded-circle img-fluid" alt=""><span class="d-none d-md-inline fs-16 text-white fw-bold">
 			Olá, {{nomeCompleto}}</span></a>
-		<a href="" class="navbar-brand"><i class="fas fa-edit text-white"></i></a>
+		<a [routerLink]="['user-edit', id]" class="navbar-brand"><i class="fas fa-edit text-white"></i></a>
 	</div>
 	<div class="col-6" style="text-align:right;" >
 		<a (click)='sair()' href="javascript::void(0)" class="navbar-brand" ><span class="d-none d-md-inline fs-16 text-white">Sair  </span><i class="fas fa-sign-out-alt text-white"></i></a>
