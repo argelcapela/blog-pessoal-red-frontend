@@ -15,11 +15,11 @@ Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, 
 
 ## :wrench: Tecnologias utilizadas
 <div style="display: inline_block"><br>
-    <img align="center" alt="gel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+   <img align="center" alt="gel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="gel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+        <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bootstrap/bootstrap-plain.svg">
     <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="gel-java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-    <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
+    <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/typescript/typescript-plain.svg">
     <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
 </div>
 <br>
@@ -27,7 +27,8 @@ Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, 
 
 ## :rocket: Rodando o projeto
 Basta acessar os links a seguir: <br>
-Link da Documentação do Projeto: https://argelcapela.github.io/blog-pessoal-red-frontend/<br>
+Link da Documentação Backend(API/Swagger) do Projeto: https://argelcapela.github.io/blog-pessoal-red-backend/<br>
+Link da Documentação Frontend(Angular) do Projeto: https://argelcapela.github.io/blog-pessoal-red-frontend/<br>
 Link do Frontend:  https://blog-pessoal-red.netlify.app/ <br>
 Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
 
