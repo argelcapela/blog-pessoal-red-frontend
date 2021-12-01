@@ -1,25 +1,39 @@
-<h1 align="center"> blog-pessoal-red-frontend v1.0</h1>
-Link da Documentação do Projeto: https://argelcapela.github.io/blog-pessoal-red-frontend/<br>
-Link do Frontend:  https://blog-pessoal-red.netlify.app/ <br>
-Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
+<div align="center" style="font-size:30px;">
+    <img style="width:200px;height:319px;" src="https://github.com/argelcapela/blog-pessoal-red-frontend/blob/main/src/assets/icon/favicon.png?raw=true" alt="logo_toddes">
+   <h1 align="center"> blog-pessoal-red-frontend v1.0 (red-reality)</h1>
+</div>
 
 ## :memo: Descrição
 Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
 
 ## :books: Funcionalidades
-* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+* <b>CADASTRO, LOGIN COM BOA VALIDAÇÃO</b>
+* <b>CRUD TEMA, POSTAGEM e USUÁRIO</b>
+* <b>ORDENAÇÃO AO RECEBER OS DADOS DO BANCO</b>
+* <b>PESQUISA POR TÍTULO POSTAGEM, NOME TEMA</b>
+* <b>FUNÇÕES ESPECÍFICAS PARA USUÁRIO ADMINISTRADOR</b>
 
 ## :wrench: Tecnologias utilizadas
-* Tecnologia;
+<div style="display: inline_block"><br>
+   <img align="center" alt="gel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="gel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+        <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bootstrap/bootstrap-plain.svg">
+    <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+    <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/typescript/typescript-plain.svg">
+    <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
+</div>
+<br>
+
 
 ## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
-```
-<linha de comando>
-```
+Basta acessar os links a seguir: <br>
+Link da Documentação Backend(API/Swagger) do Projeto: https://argelcapela.github.io/blog-pessoal-red-backend/<br>
+Link da Documentação Frontend(Angular) do Projeto: https://argelcapela.github.io/blog-pessoal-red-frontend/<br>
+Link do Frontend:  https://blog-pessoal-red.netlify.app/ <br>
+Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
 
 ## :soon: Implementação futura
-* O que será implementado na próxima sprint?
+* Mesmo projeto porém feito com tecnologias e estilos diferentes, e assim dominar diferentes tecnologias.
 
 ## :handshake: Colaboradores
 <table>
@@ -36,3 +50,4 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 </table>
 
 ## :dart: Status do projeto
+:technologist: Finalizado em versão 1.0 (red-reality)
