@@ -1,7 +1,7 @@
 <h1 align="center"> blog-pessoal-red-frontend v1.0</h1>
 
 ## :memo: Descrição
-Escreva uma descrição do seu projeto
+Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
 
 ## :books: Funcionalidades
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
