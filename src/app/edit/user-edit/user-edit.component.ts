@@ -65,7 +65,7 @@ export class UserEditComponent implements OnInit {
       console.table(this.user)
       this.authService.cadastrar(this.user).subscribe((resp: User) => {
         this.user = resp
-        this.router.navigate(['/entrar'])
+
         this.alertas.showAlertSuccess("Usuário atualizado com sucesso, faça o login novamente!")
 
         environment.token=''

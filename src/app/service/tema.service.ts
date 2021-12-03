@@ -16,23 +16,27 @@ export class TemaService {
   }
 
   getAllTema(): Observable<Tema[]>{
-    return this.http.get<Tema[]>('http://localhost:8080/temas', this.token)
+    return this.http.get<Tema[]>('https://blog-pessoal-red-backend.herokuapp.com/temas', this.token)
   }
 
   getByCodTema(codTema: number): Observable<Tema>{
-    return this.http.get<Tema>(`http://localhost:8080/temas/${codTema}`, this.token)
+    return this.http.get<Tema>(`https://blog-pessoal-red-backend.herokuapp.com/temas/${codTema}`, this.token)
+  }
+
+  getByNomeTema(nome: string):Observable<Tema[]>{
+    return this.http.get<Tema[]>(`https://blog-pessoal-red-backend.herokuapp.com/temas/descricao/${nome}`, this.token)
   }
 
   postTema(tema: Tema): Observable<Tema> {
-    return this.http.post<Tema>('http://localhost:8080/temas', tema, this.token)
+    return this.http.post<Tema>('https://blog-pessoal-red-backend.herokuapp.com/temas', tema, this.token)
   }
 
   putTema(tema: Tema): Observable<Tema> {
-    return this.http.put<Tema>('http://localhost:8080/temas', tema, this.token)
+    return this.http.put<Tema>('https://blog-pessoal-red-backend.herokuapp.com/temas', tema, this.token)
   }
 
   deleteTema(codTema: number){
-    return this.http.delete(`http://localhost:8080/temas/${codTema}`, this.token)
+    return this.http.delete(`https://blog-pessoal-red-backend.herokuapp.com/temas/${codTema}`, this.token)
   }
 
 

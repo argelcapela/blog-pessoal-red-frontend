@@ -1,27 +1,53 @@
-# GenBlogPessoalFrontend
+<div align="center" style="font-size:30px;">
+    <img style="width:200px;height:319px;" src="https://github.com/argelcapela/blog-pessoal-red-frontend/blob/main/src/assets/icon/favicon.png?raw=true" alt="logo_toddes">
+   <h1 align="center"> blog-pessoal-red-frontend v1.0 (red-reality)</h1>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+## :memo: Descrição
+Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
 
-## Development server
+## :books: Funcionalidades
+* <b>CADASTRO, LOGIN COM BOA VALIDAÇÃO</b>
+* <b>CRUD TEMA, POSTAGEM e USUÁRIO</b>
+* <b>ORDENAÇÃO AO RECEBER OS DADOS DO BANCO</b>
+* <b>PESQUISA POR TÍTULO POSTAGEM, NOME TEMA</b>
+* <b>FUNÇÕES ESPECÍFICAS PARA USUÁRIO ADMINISTRADOR</b>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## :wrench: Tecnologias utilizadas
+<div style="display: inline_block"><br>
+   <img align="center" alt="gel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="gel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+        <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bootstrap/bootstrap-plain.svg">
+    <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+    <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/typescript/typescript-plain.svg">
+    <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
+</div>
+<br>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## :rocket: Rodando o projeto
+Basta acessar os links a seguir: <br>
+Link da Documentação Backend(API/Swagger) do Projeto: https://argelcapela.github.io/blog-pessoal-red-backend/<br>
+Link da Documentação Frontend(Angular) do Projeto: https://argelcapela.github.io/blog-pessoal-red-frontend/<br>
+Link do Frontend:  https://blog-pessoal-red.netlify.app/ <br>
+Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
 
-## Build
+## :soon: Implementação futura
+* Mesmo projeto porém feito com tecnologias e estilos diferentes, e assim dominar diferentes tecnologias.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/argelcapela">
+        <img src="https://avatars.githubusercontent.com/u/79276276?s=400&u=055b803f4708d59eaf50208ba601f85844125757&v=4" width="100px;" alt="Foto de Argel Capela!"/><br>
+        <sub>
+          <b>Argel Capela</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## :dart: Status do projeto
+:technologist: Finalizado em versão 1.0 (red-reality)

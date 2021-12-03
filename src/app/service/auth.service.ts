@@ -15,16 +15,16 @@ export class AuthService {
   ) { }
 
   entrar(userLogin: UserLogin): Observable<UserLogin> {
-    return this.http.post<UserLogin>('http://localhost:8080/usuarios/logar', userLogin)
+    return this.http.post<UserLogin>('https://blog-pessoal-red-backend.herokuapp.com/usuarios/logar', userLogin)
 
   }
 
   cadastrar(user: User): Observable<User> {
-    return this.http.post<User>('http://localhost:8080/usuarios/cadastrar', user);
+    return this.http.post<User>('https://blog-pessoal-red-backend.herokuapp.com/usuarios/cadastrar', user);
   }
 
   getByIdUser(id: number): Observable<User>{
-    return this.http.get<User>(`http://localhost:8080/usuarios/${id}`)
+    return this.http.get<User>(`https://blog-pessoal-red-backend.herokuapp.com/usuarios/${id}`)
   }
 
   logado(){
@@ -34,6 +34,18 @@ export class AuthService {
       ok = true
 
     return ok
+  }
+
+  adm()
+  {
+    let ok = true
+
+    if (environment.tipo == 'adm')
+      ok = true
+    else
+      ok = false
+
+      return ok
   }
 
 }

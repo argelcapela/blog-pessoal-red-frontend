@@ -23,11 +23,21 @@ export class InicioComponent implements OnInit {
   tema: Tema
   user: User = new User()
 
+  //pesquisa
+  tituloPost: string
+  nomeTema: string
+
+  // ordenação
+  key = 'data'
+  reverse = true
+  // * 'true' -> último é o primeiro
+  // * 'false'-> ordem normal
+
   constructor(
     private router: Router,
     private postagemService: PostagemService,
     private temaService: TemaService,
-    private authService: AuthService,
+    public authService: AuthService,
     private alertas: AlertasService
   ) { }
 
@@ -36,7 +46,7 @@ export class InicioComponent implements OnInit {
 
     if(environment.token == '')
     {
-      this.alertas.showAlertInfo("Sua sessão expirou, faça o login novamente.")
+      this.alertas.showAlertDanger("Sua sessão expirou, faça o login novamente.")
       this.router.navigate(['/entrar'])
     }
 
@@ -88,6 +98,29 @@ export class InicioComponent implements OnInit {
 
   }
 
+findByTituloPostagem(){
+  if(this.tituloPost == '')
+  {
+    this.getAllPostagens()
+  }
+  else{
+    this.postagemService.getByTituloPostagem(this.tituloPost).subscribe((resp : Postagem[])=>{
+      this.listaPostagens = resp
+    })
+  }
+}
+
+findByNomeTema(){
+  if(this.nomeTema == '')
+  {
+    this.getAllTemas()
+  }
+  else{
+    this.temaService.getByNomeTema(this.nomeTema).subscribe((resp : Tema[])=>{
+      this.listaTemas = resp
+    })
+  }
+}
 
 
 }
