@@ -37,6 +37,7 @@ Link do Frontend:  https://blog-pessoal-red.netlify.app/ <br>
 Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
 
 ## :soon: Implementação futura (Não sei quando, mas um dia...)
+* <b>blog-pessoal-redblack:</b> Mesmo projeto, implementado em PHP PURO ou LARAVEL, com outra estilização e algumas outras variações.
 * <b>blog-pessoal-green:</b> Mesmo projeto, implementado em NodeJS e React, com outra estilização e algumas outras variações.
 * <b>blog-pessoal-blueyellow:</b> Mesmo projeto, implementado em Python(Jango), com outra estilização e algumas outras variações.
 * <b>blog-pessoal-blue:</b> Mesmo projeto, implementado em .NET, com outra estilização e algumas outras variações.
