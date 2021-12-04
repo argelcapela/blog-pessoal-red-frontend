@@ -15,10 +15,10 @@
 					<input [(ngModel)]='userLogin.senhaUsuario' class="form-control" type="password" name="senha" id="usuario" placeholder="Sua Senha" tabindex="2" maxlength="8">
 				</div>
 				<div class="d-flex justify-content-center mt-3">
-					<button type="submit" class="btn btn-success" (click)='logar()' tabindex="3">Entrar</button>
+					<button type="submit" class="btn btn-danger" (click)='logar()' tabindex="3">Entrar</button>
 				</div>
 				<hr class="mt-5 mb-5">
-				<p class="text-center">Não tem uma conta ? <a routerLink="/cadastrar" tabindex="4">Cadastre-se</a></p>
+				<p class="text-center">Não tem uma conta ? <a routerLink="/cadastrar" tabindex="4" style="color:red;font-weight:bold;">Cadastre-se</a></p>
 			</div>
 		</div>
 	</div>

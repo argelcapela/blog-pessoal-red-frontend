@@ -15,7 +15,7 @@ ul.social-network li{
 }
 
 [class*="fa-"]:hover {
-	color: #212529;
+	color: #9a151a;
 	transition: 0.2s;
 }
 
@@ -25,4 +25,8 @@ ul.social-network li{
 
 .t-d-hover:hover {
 	text-decoration:underline;
+	color:#fc4b2a !important;
 }
+
+
+.h-red-light:hover{color:#fc4b2a !important;}

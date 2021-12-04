@@ -3,7 +3,7 @@
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="text-center text-secondary">Atualizar Usuário</h1>
+					<h1 class="text-center text-red">Atualizar Usuário</h1>
 				</div>
 			</div>
 
@@ -12,33 +12,33 @@
 
 					<div class="form-group mt-3 mb-3">
 						<label for="nome">Nome</label>
-						<input [(ngModel)]='user.nomeCompleto'  class="form-control" type="text" name="nome" id="nome" placeholder="Nome" >
+						<input [(ngModel)]='user.nomeCompleto'  class="form-control" type="text" name="nome" id="nome" placeholder="Nome"  tabindex="1" maxlength="30" autofocus>
 					</div>
 					<div class="form-group mt-3 mb-3">
 						<label for="usuario">Usuário</label>
-						<input [(ngModel)]='user.login' class="form-control" type="text" name="usuario" id="usuario" placeholder="Usuário">
+						<input [(ngModel)]='user.login' class="form-control" type="text" name="usuario" id="usuario" placeholder="Usuário" tabindex="2" maxlength="30">
 					</div>
 					<div class="form-group mt-3 mb-3">
 						<label for="usuario">E-mail</label>
-						<input [(ngModel)]='user.emailUsuario' class="form-control" type="text" name="email" id="email" placeholder="E-mail">
+						<input [(ngModel)]='user.emailUsuario' class="form-control" type="text" name="email" id="email" placeholder="E-mail" tabindex="3" maxlength="50">
 					</div>
 					<div class="form-group mt-3 mb-3">
 						<label for="linkFoto">Link da Foto</label>
-						<input [(ngModel)]='user.foto' class="form-control" type="text" name="linkFoto" id="linkFoto" placeholder="Link da Foto">
+						<input [(ngModel)]='user.foto' class="form-control" type="text" name="linkFoto" id="linkFoto" placeholder="Link da Foto" tabindex="4" maxlength="200">
 					</div>
 
 					<div class="form-group mt-3 mb-3">
 						<label for="usuario">Senha</label>
-						<input (input)='confirmSenha($event)'  class="form-control" type="password" name="senha" id="senha" placeholder="Sua Senha">
+						<input (input)='confirmSenha($event)'  class="form-control" type="password" name="senha" id="senha" placeholder="Sua Senha" tabindex="5" maxlength="8">
 					</div>
 					<div class="form-group mt-3 mb-3">
 						<label for="cosenha">Confirmar Senha</label>
-						<input [(ngModel)]='user.senhaUsuario' class="form-control" type="password" name="cosenha" id="cosenha" placeholder="Digite novamente a senha">
+						<input [(ngModel)]='user.senhaUsuario' class="form-control" type="password" name="cosenha" id="cosenha" placeholder="Digite novamente a senha" tabindex="6" maxlength="8">
 					</div>
 
 					<div class="form-group mt-3 mb-3">
 						<label for="tipo">Tipo de Usuário</label>
-						<select [(ngModel)]='user.tipo' class="form-select" name="tipo" id="tipo" (change)='tipoUser($event)'>
+						<select [(ngModel)]='user.tipo' class="form-control" name="tipo" id="tipo" (change)='tipoUser($event)' tabindex="7">
 							<option>Selecione um tipo de usuário:</option>
 							<option value="normal">Normal</option>
 							<option value="adm">Administrador</option>
@@ -46,8 +46,8 @@
 					</div>
 
 					<div class="d-flex justify-content-center mt-3">
-						<button type="submit" class="btn btn-success" (click)='atualizar()'>Atualizar</button>
-						<button type="button" class="btn btn-danger" style="margin-left:5px;" routerLink="/inicio">Cancelar</button>
+						<button type="submit" class="btn btn-danger" (click)='atualizar()' tabindex="8">Atualizar</button>
+						<button type="button" class="btn btn-dark" style="margin-left:5px;" routerLink="/inicio">Cancelar</button>
 					</div>
 				</div>
 			</div>

@@ -12,3 +12,11 @@ html
 .fs-18{
 	font-size: 18pt;
 }
+
+/* UNIVERSAL COLORS */
+.bg-reality{background-color:#c21b12;}
+.bg-reality-2{background-color:#9a151a;}
+.btn-dark{background:black;color:white;}
+.text-dark{color:black;}
+.text-red{color:red;font-weight:bold;}
+.h-red-light:hover{color:#fc4b2a !important;}
