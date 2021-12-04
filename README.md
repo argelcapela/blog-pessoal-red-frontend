@@ -4,7 +4,11 @@
 </div>
 
 ## :memo: Descrição
-Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
+Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova 
+tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
+
+##  :art: Estilização
+Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: Wanda Maximoff, Capitã Marvel e Xu Xialing.
 
 ## :books: Funcionalidades
 * <b>CADASTRO, LOGIN COM BOA VALIDAÇÃO</b>
@@ -32,8 +36,11 @@ Link da Documentação Frontend(Angular) do Projeto: https://argelcapela.github.
 Link do Frontend:  https://blog-pessoal-red.netlify.app/ <br>
 Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
 
-## :soon: Implementação futura
-* Mesmo projeto porém feito com tecnologias e estilos diferentes, e assim dominar diferentes tecnologias.
+## :soon: Implementação futura (Não sei quando, mas um dia...)
+* <b>blog-pessoal-green:</b> Mesmo projeto, implementado em NodeJS e React, com outra estilização e algumas outras variações.
+* <b>blog-pessoal-blueyellow:</b> Mesmo projeto, implementado em Python(Jango), com outra estilização e algumas outras variações.
+* <b>blog-pessoal-blue:</b> Mesmo projeto, implementado em .NET, com outra estilização e algumas outras variações.
+* <b>blog-pessoal-...:</b> Alguma outra tecnologia relevante pro mercado, para exercitar CRUD.
 
 ## :handshake: Colaboradores
 <table>
