@@ -25,6 +25,8 @@ export class EntrarComponent implements OnInit {
 
   ngOnInit() {
     window.scroll(0, 0)
+
+    document.body.classList.add("bg-entrar-mobile")
   }
 
   logar(){

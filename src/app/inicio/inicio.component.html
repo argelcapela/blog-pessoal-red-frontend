@@ -1,6 +1,7 @@
+<div class="container-fluid">
 
 	<div class="row bg-reality d-flex align-items-center">
-		<div class="col-6">
+		<div class="col-md-6 text-center">
 			<div class="row d-flex justify-content-center ">
 				<div class="col-md-6 text-white">
 					<h1 class="fs-54">Seja bem vindo(a)!</h1>
@@ -18,15 +19,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 d-flex justify-content-center">
-			<img src="../../assets/img/superwoman.png" width="500px" height="500px;" class="" alt="">
+		<div class="col-12 col-md-6 d-flex justify-content-center">
+			<img src="../../assets/img/superwoman.png" class="img-banner" alt="">
 		</div>
 	</div>
 
-	<div class="row mt-5 mb-5">
-		<div class="col-md-12">
+	<div class="row mt-4 mb-4">
+		<div class="col-12 col-md-12">
 			<nav>
-				<div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+				<div class="nav nav-tabs text-center" id="nav-tab" role="tablist">
 				  <a class="nav-item nav-link active text-secondary fw-bold" id="nav-todasPostagens-tab" data-toggle="tab" href="#nav-todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</a>
 
 				  <a (click)='findByIdUser()' class="nav-item nav-link text-secondary fw-bold" id="nav-minhasPostagens-tab" data-toggle="tab" href="#nav-minhasPostagens" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas Postagens</a>
@@ -34,11 +35,12 @@
 				  <a class="nav-item nav-link text-secondary fw-bold" id="nav-postagensPorTema-tab" data-toggle="tab" href="#nav-postagensPorTema" role="tab" aria-controls="nav-postagensPorTema" aria-selected="false">Postagens por tema</a>
 				</div>
 			  </nav>
+
 			  <div class="tab-content" id="nav-tabContent">
 
 				<div class="tab-pane fade show active" id="nav-todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">
 
-					<div class="row d-flex justify-content-center mt-5 mb-5">
+					<div class="row d-flex justify-content-center mt-3 mb-5">
 						<div class="col-md-4">
 							<div class="form-group">
 								<input type="text" class="form-control" id="titulo" placeholder="Digite um título de postagem para pesquisar" [(ngModel)]='tituloPost' (keyup)='findByTituloPostagem()' >
@@ -62,6 +64,8 @@
 								  {{post.fk_usuario.nomeCompleto}}</small></p>
 
 							</div>
+
+							<img *ngIf="post.imagem" src="{{post.imagem}}" class="post-img" onerror="this.style='display:none';" >
 						  </div>
 					</div>
 
@@ -81,10 +85,13 @@
 
 							  <p class="card-text"><small class="text-muted">{{post.data | date: 'dd/MM/yyyy'}} às {{post.data | date: 'HH:mm'}}</small></p>
 
+							  <img *ngIf="post.imagem" src="{{post.imagem}}" class="post-img" onerror="this.style='display:none';" >
+
 								<a [routerLink]="['/postagem-edit', post.idPostagem]" class="text-danger mr-3">Editar</a>
 								<a [routerLink]="['/postagem-delete', post.idPostagem]" class="text-dark">Apagar</a>
 
 							</div>
+
 						  </div>
 					</div>
 
@@ -94,7 +101,7 @@
 
 				<div class="tab-pane fade" id="nav-postagensPorTema" role="tabpanel" aria-labelledby="nav-contact-tab">
 
-					<div class="row d-flex justify-content-center mt-5 mb-5">
+					<div class="row d-flex justify-content-center mt-3 mb-5">
 						<div class="col-md-4">
 							<div class="form-group">
 								<input type="text" class="form-control" id="titulo" placeholder="Digite o nome de um tema para pesquisar" [(ngModel)]='this.nomeTema' (keyup)='findByNomeTema()' >
@@ -115,6 +122,7 @@
 								{{post.fk_usuario.nomeCompleto}}</small></p>
 
 							</div>
+							<img *ngIf="post.imagem" src="{{post.imagem}}" class="post-img" onerror="this.style='display:none';" >
 						  </div>
 					</div>
 
@@ -147,6 +155,10 @@
 						<input type="text" class="form-control" id="titulo" placeholder="Digite o título" [(ngModel)]='postagem.titulo' tabindex="1" maxlength="50" autofocus>
 					</div>
 					<div class="form-group">
+						<label for="Imagem:">Imagem</label>
+						<input type="text" class="form-control" id="titulo" placeholder="Link da Imagem" [(ngModel)]='postagem.imagem' maxlength="200" >
+					</div>
+					<div class="form-group">
 						<label for="texto">Texto</label>
 						<textarea name="texto" id="texto" cols="30" rows="3" class="form-control" id="texto" placeholder="" [(ngModel)]='postagem.texto' tabindex="2" maxlength="200"></textarea>
 					</div>
@@ -160,9 +172,10 @@
 					</div>
 			</div>
 			<div class="modal-footer">
-			<button type="button" class="btn btn-dark" data-dismiss="modal" style="background:black;color:white;">Cancelar</button>
+			<button type="button" class="btn btn-dark" data-dismiss="modal" style="background:black !important;color:white;">Cancelar</button>
 			<button type="button" class="btn btn-danger" data-dismiss="modal" (click)='publicar()' tabindex="4">Publicar</button>
 			</div>
 		</div>
 		</div>
 	</div>
+</div>

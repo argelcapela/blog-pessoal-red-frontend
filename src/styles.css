@@ -5,6 +5,7 @@ html
 	scroll-behavior: smooth;
 }
 
+/* UNIVERSAL SIZES*/
 .fs-54{
 	font-size: 54pt;
 }
@@ -13,10 +14,44 @@ html
 	font-size: 18pt;
 }
 
+.logo{
+	width:70px;
+}
+
+.post-img{
+	width:100%;
+	height:300px;
+}
+
+
 /* UNIVERSAL COLORS */
+body{color:black;}
 .bg-reality{background-color:#c21b12;}
 .bg-reality-2{background-color:#9a151a;}
 .btn-dark{background:black;color:white;}
 .text-dark{color:black;}
 .text-red{color:red;font-weight:bold;}
+.text-reality2{color:#9a151a;font-weight:bold;}
 .h-red-light:hover{color:#fc4b2a !important;}
+
+
+
+/* RESPOSIVIDADE */
+/* SM - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* MD -Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+
+}
+/* LG - Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+}
+/* XL - Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

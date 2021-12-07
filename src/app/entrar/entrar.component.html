@@ -1,17 +1,22 @@
+<div class="container-fluid">
 
-<div class="row  d-flex align-items-center">
+
+<div class="row  d-flex align-items-center" style="z-index:5;">
 	<div class="col-md-6">
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-6">
-				<h1 class="text-center mb-3">Entrar</h1>
+				<div class="text-center">
+					<img src="../../assets/icon/favicon.png" class="logo" />
+					<h1 class="text-center text-red mb-3">Entrar</h1>
+				</div>
 
 				<div class="form-group">
-					<label for="usuario">Usuário</label>
-					<input [(ngModel)]='userLogin.login' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário" tabindex="1" autofocus maxlength="20">
+					<label for="usuario">E-mail: </label>
+					<input [(ngModel)]='userLogin.login' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu E-mail" tabindex="1" autofocus maxlength="20">
 				</div>
 
 				<div class="form-group mt-3">
-					<label for="usuario">Senha</label>
+					<label for="usuario">Senha: </label>
 					<input [(ngModel)]='userLogin.senhaUsuario' class="form-control" type="password" name="senha" id="usuario" placeholder="Sua Senha" tabindex="2" maxlength="8">
 				</div>
 				<div class="d-flex justify-content-center mt-3">
@@ -22,5 +27,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-6 bg-login" ></div>
+	<div class="col-md-6 bg-login d-none d-md-block" ></div>
+</div>
 </div>

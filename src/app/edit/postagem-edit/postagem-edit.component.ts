@@ -62,8 +62,10 @@ export class PostagemEditComponent implements OnInit {
     }
 
     atualizar() {
+
       this.tema.codTema = this.codTema
       this.postagem.fk_tema = this.tema
+      this.postagem.data = new Date()
 
       this.postagemService.putPostagem(this.postagem).subscribe((resp: Postagem)=>{
         this.postagem = resp
