@@ -69,6 +69,7 @@ export class InicioComponent implements OnInit {
   getAllPostagens(){
     this.postagemService.getAllPostagens().subscribe((resp: Postagem[])=>{
       this.listaPostagens = resp
+      console.table(this.listaPostagens)
     })
   }
 

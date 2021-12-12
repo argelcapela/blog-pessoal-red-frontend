@@ -27,6 +27,9 @@ export class EntrarComponent implements OnInit {
     window.scroll(0, 0)
 
     document.body.classList.add("bg-entrar-mobile")
+
+    ////let novaData = new Date()
+    //  alert(novaData.toUTCString())
   }
 
   logar(){
