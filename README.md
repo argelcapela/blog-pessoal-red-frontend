@@ -53,7 +53,9 @@ Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelca
 Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
 Link do Frontend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
 Link do Backend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
-
+</div>
+<div class="row">
+  
 ## :soon: Implementação futura (Não sei quando, mas um dia...)<br>
 <ul>
   <li><b>blog-pessoal-redblack:</b> Mesmo projeto, implementado em PHP PURO ou LARAVEL, com outra estilização e algumas outras variações.</li>
