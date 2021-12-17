@@ -22,13 +22,13 @@ Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: 
 <div class="row">
   
 ## :books: Funcionalidades<br>
-  <ul>
+  
     <li><b>CADASTRO, LOGIN COM BOA VALIDAÇÃO</b></li>
 <li><b>CRUD TEMA, POSTAGEM e USUÁRIO</b></li>
 <li><b>ORDENAÇÃO AO RECEBER OS DADOS DO BANCO</b></li>
 <li><b>PESQUISA POR TÍTULO POSTAGEM, NOME TEMA</b></li>
 <li><b>FUNÇÕES ESPECÍFICAS PARA USUÁRIO ADMINISTRADOR</b></li>
-  </ul>
+
   </div>
 
 <div class="row">
@@ -48,22 +48,19 @@ Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: 
 <div class="row">
   
 ## :rocket: Rodando o projeto<br>
-Basta acessar os links a seguir: <br>
-Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
-Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
-Link do Frontend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
-Link do Backend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a><br>
+<li>Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
+<li>Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
+<li>Link do Frontend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
+<li>Link do Backend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
 </div>
 <div class="row">
   
 ## :soon: Implementação futura (Não sei quando, mas um dia...)<br>
-<ul>
   <li><b>blog-pessoal-redblack:</b> Mesmo projeto, implementado em PHP PURO ou LARAVEL, com outra estilização e algumas outras variações.</li>
   <li><b>blog-pessoal-green:</b> Mesmo projeto, implementado em NodeJS e React, com outra estilização e algumas outras variações.</li>
   <li><b>blog-pessoal-blueyellow:</b> Mesmo projeto, implementado em Python(Jango), com outra estilização e algumas outras variações.</li>
   <li><b>blog-pessoal-blue:</b> Mesmo projeto, implementado em .NET, com outra estilização e algumas outras variações.</li>
   <li><b>blog-pessoal-...:</b> Alguma outra tecnologia relevante pro mercado, para exercitar CRUD.</li>
-  </ul>
   
 </div>
 <div class="row">
