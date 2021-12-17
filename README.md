@@ -1,21 +1,33 @@
-<div align="center" style="font-size:30px;">
+<div align="center" style="font-size:30px;" class="hide-on-portfolio">
     <img style="width:200px;height:319px;" src="https://github.com/argelcapela/blog-pessoal-red-frontend/blob/main/src/assets/icon/favicon.png?raw=true" alt="logo_toddes">
    <h1 align="center"> blog-pessoal-red-frontend v1.0 (red-reality)</h1>
 </div>
 
+<div class="hide-on-portfolio">
 ## :memo: Descrição
 Exercício de criação de API. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova 
 tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
+</div>
 
+<div class="row">
+  
 ##  :art: Estilização
 Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: Wanda Maximoff, Capitã Marvel e Xu Xialing.
 
+</div>
+  
+<div class="row">
+  
 ## :books: Funcionalidades
 * <b>CADASTRO, LOGIN COM BOA VALIDAÇÃO</b>
 * <b>CRUD TEMA, POSTAGEM e USUÁRIO</b>
 * <b>ORDENAÇÃO AO RECEBER OS DADOS DO BANCO</b>
 * <b>PESQUISA POR TÍTULO POSTAGEM, NOME TEMA</b>
 * <b>FUNÇÕES ESPECÍFICAS PARA USUÁRIO ADMINISTRADOR</b>
+ 
+  </div>
+
+<div class="row">
 
 ## :wrench: Tecnologias utilizadas
 <div style="display: inline_block"><br>
@@ -27,8 +39,10 @@ Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: 
     <img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
 </div>
 <br>
+</div>
 
-
+<div class="row">
+  
 ## :rocket: Rodando o projeto
 Basta acessar os links a seguir: <br>
 Link da Documentação Backend(API/Swagger) do Projeto: https://argelcapela.github.io/blog-pessoal-red-backend/<br>
@@ -43,6 +57,9 @@ Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
 * <b>blog-pessoal-blue:</b> Mesmo projeto, implementado em .NET, com outra estilização e algumas outras variações.
 * <b>blog-pessoal-...:</b> Alguma outra tecnologia relevante pro mercado, para exercitar CRUD.
 
+</div>
+<div class="row">
+
 ## :handshake: Colaboradores
 <table>
   <tr>
@@ -56,6 +73,11 @@ Link do Backend:  https://blog-pessoal-red-backend.herokuapp.com/ <br>
     </td>
   </tr>
 </table>
+  </div>
+
+<div class="row">
 
 ## :dart: Status do projeto
-:technologist: Finalizado em versão 1.0 (red-reality)
+Finalizado em versão 1.0 (red-reality)
+
+</div>
