@@ -82,7 +82,7 @@ Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: 
 
 <div class="row">
 
-## :dart: Status do projeto
-Finalizado em versão 1.0 (red-reality)
+## :dart: Status do projeto <br>
+  <li>Finalizado em versão 1.0 (red-reality)</li>
 
 </div>
