@@ -14,7 +14,7 @@ tecnologia. Desenvolvido durante o bootcamp da Generation Brasil.
 
 <div class="row">
   
-##  :art: Estilização<br>
+## :art: Estilização<br>
 Inspirado na Joia da Realidade e nas minhas super heroinas favoritas da Marvel: Wanda Maximoff, Capitã Marvel e Xu Xialing.
 
 </div>
