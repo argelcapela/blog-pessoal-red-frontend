@@ -61,8 +61,8 @@ Um exercício de CRUD usando as tecnologias SpringBoot e Angular. <br>
 # 🚀 Rodando o projeto:<br>
 <a href="https://blog-pessoal-red.netlify.app/#/entrar">https://blog-pessoal-red.netlify.app/#/entrar</a>
 <li>Link do Backend:  <a href="https://blog-pessoal-red-backend.herokuapp.com/swagger-ui/">Link</a></li>
-<li>Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/docs">Link</a></li>
-<li>Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/docs">Link</a></li>
+<li>Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
+<li>Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-frontend/">Link</a></li>
 <li>Link Github: <a href="https://github.com/argelcapela/te-amo-mil-milhoes-frontend">Link</a></li>
 
 	
