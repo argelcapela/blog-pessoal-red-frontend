@@ -1,29 +1,35 @@
 <!--<div id="portfolio-slideshow-items" class="hide-on-portfolio" visibility="0">
-    
+<div class="item"><video id="portfolio-video" data-yt2html5="https://youtu.be/WoeL3G3pUDs" controls></video></div>
 </div>
 -->
 
 <div class="hide-on-portfolio">
-<h1 align="center"> te-amo-mil-milhoes-frontend </h1>
 
-## :memo: Descrição:
-Um blog com a temática do UCM (Universo Cinematográfico da Marvel). Onde fãs podem compartilhar ideias e sentimentos sobre a Marvel, seu amor, ou seu ódio. Incrível. Feito com a estrutura de API em Java e Spring Boot. Permite realizar CRUD(s) entre as tabelas TEMA, POSTAGEM e USUÁRIO. Muito útil para praticar requisições e as funcionalidades básicas de uma nova tecnologia. 
+<div align="center">
+	<p><i>"Em uma entrevista para uma emissora de televisão Mike Tyson foi questionado se era verdade de fato que ele acordava às 04h00 da manhã para correr. Mike Tyson respondeu: Não! As 04h já estou correndo.... Mas você é Campeão Mundial, pra que tudo isso?" Tyson disse: "Por isso mesmo, a esta hora todos meus adversários estão dormindo e engordando. Se eu souber que algum deles está correndo as 04h também, vou começar a correr às 02h, e se algum correr as 02h, vou parar de dormir para treinar. É por essa razão que me mantenho no topo... A responsabilidade é toda minha, não deles.... <b>Que possamos sempre dar o melhor de nós para crescer!</b>" </i><br><b>Autor Desconhecido</b></p>
+<br><br>
+	<img src="https://i.imgur.com/ndImDZ1.jpg" width="250px">
 </div>
+<br><br>
+</div>
+<br><br>
 
-<div class="row">
+<div class="hide-on-portfolio">
+	
+# ✨ O que é o blog-pessoal-red?
+	
+Um exercício de CRUD usando as tecnologias SpringBoot e Angular. <br>
+</div>
+<br>
 
-## :wrench: Tecnologias utilizadas:<br>
+<div class="col-12">
+
+# 🔧 Tecnologias utilizadas:<br>
 <div style="display: inline_block">
-<img align="center" alt="gel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img align="center" alt="gel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-<img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bootstrap/bootstrap-plain.svg">
-<img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-<img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/typescript/typescript-plain.svg">
-<img align="center" alt="gel-spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
+     <img align="center" alt="gel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
 </div>
-
-<div class="row">
-    
+<br>
+	
 ## :books: Funcionalidades:<br>
 <table class="special-border">
 <tr>
@@ -42,33 +48,25 @@ Um blog com a temática do UCM (Universo Cinematográfico da Marvel). Onde fãs 
     <td colspan="2">FUNÇÕES ESPECÍFICAS PARA USUÁRIO ADMINISTRADOR</td>
 </tr> 
 </table>
-</div>
+ <br>
+  
+<div class="col-12">
 
-<div class="row">
-
-## :rocket: Rodando o projeto:<br>
-    
+# 🚀 Rodando o projeto:<br>
+<a href="https://blog-pessoal-red.netlify.app/#/entrar">https://blog-pessoal-red.netlify.app/#/entrar</a>
+<li>Link do Backend:  <a href="https://blog-pessoal-red-backend.herokuapp.com/swagger-ui/">Link</a></li>
+<li>Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/docs">Link</a></li>
+<li>Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/docs">Link</a></li>
 <li>Link Github: <a href="https://github.com/argelcapela/te-amo-mil-milhoes-frontend">Link</a></li>
-<li>Link da Documentação Backend(API/Swagger) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
-<li>Link da Documentação Frontend(Angular) do Projeto: <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
-<li>Link do Frontend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
-<li>Link do Backend:  <a href="https://argelcapela.github.io/blog-pessoal-red-backend/">Link</a></li>
- 
-</div>
-<div class="row">
 
-## :soon: Implementação futura:<br>
-<li><b>redblack:</b> Mesma estrutura desse projeto, implementado em PHP PURO ou LARAVEL, com outra estilização e algumas outras variações.</li>
-<li><b>green:</b> Mesma estrutura desse projeto, implementado em NodeJS e React, com outra estilização e algumas outras variações.</li>
-<li><b>blueyellow:</b> Mesma estrutura desse projeto, implementado em Python(Jango), com outra estilização e algumas outras variações.</li>
-<li><b>blue:</b> Mesma estrutura desse projeto, implementado em .NET, com outra estilização e algumas outras variações.</li>
-<li>Mesma estrutura em alguma outra tecnologia relevante pro mercado, para exercitar CRUD.</li>
-    
+	
 </div>
-<div class="row">
-    
+<br>
 
-## :handshake: Colaboradores:<br>
+
+<div class="col-12">
+	
+# 🤝 Colaboradores:<br>
 <table>
   <tr>
     <td align="center">
@@ -81,11 +79,28 @@ Um blog com a temática do UCM (Universo Cinematográfico da Marvel). Onde fãs 
     </td>
   </tr>
 </table>
+<br>
 </div>
-<div class="row">
-    
-## :dart: Status do projeto:<br>
+	
+<div class="col-12">
+	
+# 📅 Status do projeto:<br>
+<img src="https://i.imgur.com/3bRGIPH.png" width="250px" height="200px">
+</div>
+	
+<br>
+<br>
 
-<li>Finalizado em versão 1.0</li>
-    
+<div class="col-12">
+	
+# 🕷 Erros:<br>
+<p>Identificou um erro? Por favor me informe! ou fique a vontade para criar um *issue* aqui no Github e contribuir.</p>
+<p>Também fique a vontade para opinar, criticar, xingar, elogiar etc. Para mim é tudo a mesma coisa, fonte de crescimento pessoal. Eu não sei tudo, mas estou buscando ser um profissional 1% melhor a cada dia.</p>
 </div>
+	
+<div class="col-12">
+<p>Não esqueça de dar um ⭐️ se você gostou, ou se esse repositório te ajudou de alguma maneira, isso irá me ajudar muito! Obrigado, você é top! 😁👍</p>
+</div>
+	
+
+<br><br>
