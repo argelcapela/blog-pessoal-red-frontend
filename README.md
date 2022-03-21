@@ -1,5 +1,4 @@
 <!--<div id="portfolio-slideshow-items" class="hide-on-portfolio" visibility="0">
-<div class="item"><img src="https://i.imgur.com/ndImDZ1.jpg" width="250px"></div>
 </div>
 -->
 
